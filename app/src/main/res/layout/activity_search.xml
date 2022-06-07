@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SearchView
+        android:id="@+id/srcSearchRoute"
+        android:layout_width="375dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="83dp">
+
+    </SearchView>
+
+    <ImageView
+        android:id="@+id/imgSearchBack"
+        android:layout_width="41dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="27dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnPassarTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
