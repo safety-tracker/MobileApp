@@ -1,9 +1,6 @@
 plugins {
     id 'com.android.application'
-<<<<<<< HEAD
-=======
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
->>>>>>> 547ba34 (Começando as telas)
 }
 
 android {
